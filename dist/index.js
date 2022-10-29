@@ -14,5 +14,5 @@ app.get('/', (req, res) => {
                  Nguyễn Ngọc Hoàn - 19521452`);
 });
 app.listen(port, () => {
-    console.log(`ec2-35-87-37-18.us-west-2.compute.amazonaws.com:${port}`);
+    console.log(`Server running on port:${port}`);
 });
