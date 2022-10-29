@@ -14,5 +14,5 @@ app.get('/', (req, res) => {
                  Nguyễn Ngọc Hoàn - 19521452`);
 });
 app.listen(port, () => {
-    console.log(`Server running on port:${port}`);
+    console.log(`App running on port:${port}`);
 });
