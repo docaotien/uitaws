@@ -7,7 +7,11 @@ const express_1 = __importDefault(require("express"));
 const app = (0, express_1.default)();
 const port = 3000;
 app.get('/', (req, res) => {
-    res.send("Hello World!");
+    res.send(`Welcome, we are GROUP II,
+    Our Member:
+    Name & S_ID: Đỗ Cao Tiến - 19522333
+                 Khương Viết Tài - 19522151
+                 Nguyễn Ngọc Hoàn - 19521452`);
 });
 app.listen(port, () => {
     console.log(`ec2-35-87-37-18.us-west-2.compute.amazonaws.com:${port}`);
